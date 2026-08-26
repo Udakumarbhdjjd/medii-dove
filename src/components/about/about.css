@@ -1,0 +1,113 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-section-wrapper {
+    width: 100%n;
+    padding: 150px 0;
+    background-color: white;
+}
+
+.about-section {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 0;
+    gap: 50px;
+    position: relative;
+
+}
+
+.about-section-left {
+    width: 50%;
+}
+
+.about-section-left-image-container {
+    width: 100%;
+}
+
+.about-section-left-image-container img {
+    width: 100%;
+}
+
+.about-section-right {
+    width: 50%;
+
+}
+
+
+.about-section-text-container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    gap: 15px;
+}
+
+.about-section-text-container h3 {
+    color: rgba(33, 48, 53, 0.658);
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.about-section-text-container h1 {
+    color: rgba(33, 48, 53, 0.986);
+    font-size: 65px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+
+}
+
+.about-section-text-container p {
+    text-align: left;
+    color: rgba(33, 48, 53, 0.658);
+    font-weight: 500;
+    line-height: 1.8;
+    font-size: 15px;
+
+}
+
+.about-section-card-container {
+    width: 100%;
+}
+
+.about-section-card {
+    width: 50%;
+    padding-top:30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about-section-card-img {
+    grid-row: 1/3;
+    align-self: center;
+
+}
+
+.about-section-card-name {
+    align-self: center;
+
+    text-align: left;
+}
+
+.about-section-card-title {
+    align-self: center;
+    text-align: left;
+
+    color: crimson;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-section-logo{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 999;
+}

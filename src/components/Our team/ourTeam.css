@@ -1,0 +1,28 @@
+.our-team {
+    width: 100%;
+}
+
+.our-team-wrapper {
+    width: 85%;
+    margin: auto;
+}
+
+.our-team-wrapper h2 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    color: #647589;
+}
+
+.our-team-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-team-container h1 {
+    font-size: 60px;
+    line-height: normal;
+    text-align: left;
+    font-weight: bold;
+}

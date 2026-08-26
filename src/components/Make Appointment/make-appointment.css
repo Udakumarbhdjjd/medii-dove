@@ -1,0 +1,63 @@
+.make-appointment{
+    background-color: black;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+.make-appointment-wrapper{
+    width:85%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    height: 320px;
+}
+.make-appointment-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.make-appointment-left h3{
+    color: #899dab;
+    text-align: left;
+}
+.make-appointment-left h2{
+color: white;
+font-size: 70px;
+text-align: left;
+}
+
+.make-appointment-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.make-appointment-right-items{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.make-appointment-right-item1{
+    font-size: 70px;
+    font-weight: 700;
+    color: rgba(152, 218, 86, 0.781);
+}
+.make-appointment-right-item2 h4{
+    color: white;
+    font-size: 22px;
+    width: 300px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.make-appointment-right-item2 p{
+    width: 300px;
+font-size: 16px;
+text-align: left;
+color: #899dab;
+}
+#make-appointment-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}

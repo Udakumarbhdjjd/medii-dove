@@ -1,0 +1,77 @@
+.slider {
+    margin-top: 15%;
+    margin-left: auto;
+    /* margin-right: auto; */
+    overflow: hidden;
+    /* border: 1px solid black; */
+    width: 625px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+
+}
+
+.track {
+    display: flex;
+    transition: transform 0.5s ease;
+    background-color: rgba(165, 42, 128, 0);
+    align-items: center;
+    gap: 20px;
+}
+
+.item1 {
+    background-color: blue;
+    background-image: url(https://medi-dove.netlify.app/static/media/slider-bg-2in1.a274526164db40a919cb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item2 {
+    background-color: aqua;
+}
+
+.item3 {
+    background-color: blueviolet;
+}
+
+.item1,
+.item2,
+.item3 {
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    align-items: center;
+    user-select: none;
+    flex-shrink: 0;
+    cursor: grab;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 0 6   px gray;
+}
+
+
+.slider-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0);
+    margin-top: 20px;
+}
+
+.slider-left-btn {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.slider-right-btn {
+    cursor: pointer;
+    padding: 7px 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    border: none;
+    box-shadow: 0 0 4px gray;
+
+}

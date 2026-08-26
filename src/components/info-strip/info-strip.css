@@ -1,0 +1,58 @@
+.info-strip-wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f6ff;
+
+
+}
+
+.info-strip {
+    width: 85%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f3f6ff;
+
+}
+
+
+.info-strip-button {
+    padding: 20px 45px;
+    background-color: rgb(226, 44, 105);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 600;
+
+}
+
+.info-strip-button:hover {
+    background-color: rgb(73, 218, 80);
+    user-select: none;
+}
+
+.info-strip-contact {
+    display: flex;
+    /* flex: 1; */
+    background-color: #f3f6ff;
+    margin-left: 100px;
+
+
+}
+
+.info-strip-contact p {
+    margin-right: 50px;
+    background-color: #f3f6ff;
+
+
+}
+
+.info-strip-contact i {
+    margin-right: 10px;
+    font-size: 14px;
+}
