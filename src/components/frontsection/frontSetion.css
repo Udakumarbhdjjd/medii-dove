@@ -9,7 +9,11 @@
         background-color: black;
     }   
 }
-
+@media(max-width:767px){
+    .front-section-wrapper{
+        display: none;
+    }
+}
 .front-section-wrapper {
     position: relative;
     width: 100%;

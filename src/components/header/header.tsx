@@ -60,6 +60,9 @@ function Header() {
                         <img src={logo} alt="LOGO" />
                         <div className="logo-circle"> </div>
                     </div>
+                    <button className="mobile-menu-btn">
+                        <i className="fa-solid fa-bars"></i>
+                    </button>
                     <div className="header-menu">
                         <div className="header-menu-left">
                             {dropDown.map(

@@ -26,3 +26,11 @@
     text-align: left;
     font-weight: bold;
 }
+@media(max-width:767px){
+    .our-team-container h1 {
+        font-size: 30px;
+    }
+    .our-team-container a {
+        display: none;
+    }
+}

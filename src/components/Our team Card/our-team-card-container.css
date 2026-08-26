@@ -17,3 +17,11 @@
     height: 350px;
     width: 230px;
 }
+@media (max-width:767px){
+    .our-team-card-container-wrapper{
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+   
+}
+}
