@@ -1,0 +1,89 @@
+.ContactFrontPage {
+    width: 100%;
+    background-color: rgba(153, 151, 149, 0.507);
+}
+
+.ContactFrontPage-wrapper {
+    align-items: center;
+    height: 75vh;
+    width: 85%;
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgba(161, 121, 67, 0.63); */
+
+}
+
+.ContactFrontPage-title {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.ContactFrontPage-title h4 {
+    font-size: 16px;
+    font-family: sans-serif, fantasy;
+    text-align: left;
+
+}
+
+.ContactFrontPage-title h2 {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.801);
+    font-family: Rubik, sans-serif;
+    text-align: left;
+    font-weight: bold
+}
+
+
+.ContactFrontPage-homeBTN {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ContactFrontPage-home {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.ContactFrontPage-contact {
+    color: crimson;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.ContactFrontPage-contact::before {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    border-left: 2px solid gray;
+    margin-right: 10px;
+    align-content: center;
+    margin-left: -10px;
+    transform: translateY(10%);
+}
+
+@media(max-width:767px) {
+    .ContactFrontPage-wrapper {
+        width: 95%;
+        flex-direction: column;
+        height: 85vh;
+        gap: 20px;
+        justify-content: center;
+        text-align: left;
+        align-items: normal;
+    }
+
+    .ContactFrontPage-title h2 {
+        font-size: 40px;
+        color: rgb(7, 43, 71);
+    }
+
+}
