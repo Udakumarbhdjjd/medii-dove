@@ -75,8 +75,8 @@ function Header() {
                         <div className="header-menu-right">
                             <a href="#"><i className="fa-brands fa-facebook"></i> </a>
                             <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp"></i> </a>
-                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i className="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i className="fa-brands fa-instagram" popoverTarget="_blank" rel="noopener noreferrer"></i></a>
+                            <a href="www.youtube.com/@Is_Otaku_here"><i className="fa-brands fa-youtube" popoverTarget="_blank" rel="noopener noreferrer"></i></a>
 
                             <div className="header-lang"><img src={lang} alt="" /></div>
                         </div>
