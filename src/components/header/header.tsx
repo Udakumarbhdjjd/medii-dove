@@ -75,7 +75,7 @@ function Header() {
                         <div className="header-menu-right">
                             <a href="#"><i className="fa-brands fa-facebook"></i> </a>
                             <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp"></i> </a>
-                            <a href="#" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/its_yuta__10/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
                             <a href="https://www.youtube.com/@Is_Otaku_here" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-youtube"></i></a>
 
                             <div className="header-lang"><img src={lang} alt="" /></div>
