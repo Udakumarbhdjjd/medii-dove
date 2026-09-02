@@ -74,7 +74,7 @@ function Header() {
                         </div>
                         <div className="header-menu-right">
                             <a href="#"><i className="fa-brands fa-facebook"></i> </a>
-                            <a href="https://web.whatsapp.com/"><i className="fa-brands fa-whatsapp"></i> </a>
+                            <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-whatsapp"></i> </a>
                             <a href="#"><i className="fa-brands fa-instagram"></i></a>
                             <a href="#"><i className="fa-brands fa-youtube"></i></a>
 
