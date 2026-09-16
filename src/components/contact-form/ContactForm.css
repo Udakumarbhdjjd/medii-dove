@@ -1,0 +1,167 @@
+.ContactForm {
+  width: 100%;
+  background-color: #f2f8fb;
+  padding: 55px 0 65px;
+}
+
+.ContactForm-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+.ContactForm-heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.ContactForm-heading p {
+  margin: 0 0 12px;
+  font-size: 10px;
+  color: #78909c;
+}
+
+.ContactForm-heading h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: #263b4b;
+}
+
+
+
+.ContactForm-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.ContactForm-row input {
+  width: 50%;
+  height: 45px;
+  padding: 0 24px;
+
+  border: none;
+  outline: none;
+
+  background-color: #ffffff;
+  color: #263b4b;
+
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.ContactForm-row input::placeholder {
+  color: #687985;
+}
+
+
+
+.ContactForm-fields textarea {
+  width: 100%;
+  height: 185px;
+
+  padding: 20px 24px;
+
+  border: none;
+  outline: none;
+  resize: none;
+
+  background-color: #ffffff;
+  color: #263b4b;
+
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.ContactForm-fields textarea::placeholder {
+  color: #687985;
+}
+
+
+.ContactForm-button {
+  height: 43px;
+  min-width: 145px;
+
+  margin: 25px auto 0;
+
+  padding: 0 18px 0 4px;
+
+  border: none;
+  border-radius: 25px;
+
+  background-color: #ed2856 !important;
+  color: #ffffff !important;
+
+  font-size: 9px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  cursor: pointer;
+
+  box-shadow: 0 5px 15px rgba(237, 40, 86, 0.25);
+
+  transition: none;
+}
+
+
+.ContactForm-button:hover {
+  background-color: #28ed32 !important;
+  color: #ffffff !important;
+  transition: 0.5s;
+}
+
+
+
+.ContactForm-button span {
+  width: 35px;
+  height: 35px;
+
+  margin-right: 14px;
+
+  border-radius: 50%;
+
+  background-color: #ffffff;
+  color: #263b4b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .ContactForm-container {
+    width: 90%;
+  }
+
+  .ContactForm-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .ContactForm-row input {
+    width: 100%;
+  }
+
+  .ContactForm-fields textarea {
+    height: 150px;
+  }
+
+  .ContactForm-heading h2 {
+    font-size: 26px;
+  }
+
+  .ContactForm-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

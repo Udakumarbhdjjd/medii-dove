@@ -9,6 +9,7 @@ import ServiceSection from "../components/Services card/service-section";
 import OurTeam from "../components/Our team/ourTeam";
 import OurTeamCardContainer from "../components/Our team Card/our-team-card-container";
 import MakeAppointment from "../components/Make Appointment/make-appointment";
+import Pricing from "../components/pricing/pricing";
 
 function HomePage(){
 return(
@@ -22,6 +23,7 @@ Heathcare Services" image={noticeImage} line={noticeLine}/>
         <OurTeam/>
         <OurTeamCardContainer/>
         <MakeAppointment/>
+        <Pricing/>
     </> 
 )
 }

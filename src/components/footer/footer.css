@@ -1,0 +1,267 @@
+.main-footer {
+  width: 100%;
+  background-color: #102633;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.035) 1px,
+    transparent 1.5px
+  );
+  background-size: 9px 9px;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.main-footer-container {
+  width: 1075px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 65px 0 48px;
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  column-gap: 0;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-about {
+  width: 360px;
+  text-align: left;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.footer-brand img {
+  width: 78px;
+  height: 78px;
+  padding: 14px;
+  border-radius: 50%;
+  background-color: #ed2856;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-brand h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.footer-brand p {
+  margin: 4px 0 0;
+  color: #8297a3;
+  font-size: 12px;
+  text-align: left;
+}
+
+.footer-description {
+  width: 330px;
+  margin: 0 0 28px;
+  color: #9aadb8;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.footer-contact-info {
+  margin-top: 5px;
+  text-align: left;
+}
+
+.footer-contact-info p {
+  margin: 0 0 16px;
+  color: #9aadb8;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.footer-departments {
+  width: 360px;
+  text-align: left;
+}
+
+.footer-departments h3 {
+  margin: 8px 0 32px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.footer-department-grid {
+  width: 330px;
+  display: grid !important;
+  grid-template-columns: 170px 160px !important;
+  grid-template-rows: repeat(6, 40px) !important;
+  column-gap: 0;
+  row-gap: 0;
+  align-items: start;
+  text-align: left;
+}
+
+.footer-department-grid p {
+  width: auto !important;
+  height: 40px;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #9aadb8;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: left !important;
+  display: block !important;
+}
+
+.footer-department-grid p:hover {
+  color: #ed2856;
+}
+
+.footer-news {
+  width: 360px;
+  text-align: left;
+}
+
+.footer-news h3 {
+  margin: 8px 0 32px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.footer-news-item {
+  width: 340px;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.footer-news-item img {
+  width: 78px;
+  height: 65px;
+  min-width: 78px;
+  object-fit: cover;
+  display: block;
+}
+
+.footer-news-item h4 {
+  width: 235px;
+  margin: 0 0 6px;
+  padding: 0;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.footer-news-item span {
+  color: #718692;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.main-footer-bottom {
+  width: 100%;
+  height: 42px;
+  background-color: #0b1c27;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: #8196a3;
+  font-size: 11px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+@media (max-width: 1150px) {
+  .main-footer-container {
+    width: 90%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .footer-about,
+  .footer-departments,
+  .footer-news {
+    width: 100%;
+  }
+
+  .footer-department-grid {
+    width: 100%;
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  .footer-news-item {
+    width: 100%;
+  }
+
+  .footer-news-item h4 {
+    width: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .main-footer-container {
+    width: 90%;
+    grid-template-columns: 1fr;
+    row-gap: 45px;
+    padding: 50px 0 40px;
+  }
+
+  .footer-about,
+  .footer-departments,
+  .footer-news {
+    width: 100%;
+  }
+
+  .footer-description {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .footer-department-grid {
+    width: 100%;
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: repeat(6, 38px) !important;
+  }
+
+  .footer-department-grid p {
+    height: 38px;
+    white-space: normal;
+    font-size: 15px;
+  }
+
+  .footer-news-item {
+    width: 100%;
+  }
+}

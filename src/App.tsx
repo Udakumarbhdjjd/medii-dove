@@ -6,6 +6,8 @@ import Header from './components/header/header'
 import InfoStrip from './components/info-strip/ingoStrip'
 import DoctorDetails from './pages/docter-details'
 import Contact from './pages/contact'
+import Footer from './components/footer/footer'
+import ServicesDetails from './pages/servicesDetails'
 
 function App() {
 
@@ -20,8 +22,9 @@ function App() {
         <Route path='/about-us' element={<HomePage />} />
         <Route path='/doctor-details' element={<DoctorDetails/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/servicesDetails' element={<ServicesDetails/>}/>
       </Routes>
-      
+      <Footer/>
     </>
   )
 }

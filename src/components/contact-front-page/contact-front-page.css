@@ -7,7 +7,7 @@
     align-items: center;
     height: 75vh;
     width: 85%;
-    margin: auto;
+    padding: 0 10px;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
