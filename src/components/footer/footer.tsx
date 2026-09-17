@@ -10,7 +10,7 @@ function Footer() {
 
           <div className="footer-brand">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png"
+              src="http://localhost:5173/src/components/header/header%20image/logo.png"
               alt="MediDove"
             />
           </div>

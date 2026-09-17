@@ -5,7 +5,6 @@ function ServicesDetailsMain() {
     <section className="services-details-main-section">
       <div className="services-details-container">
         
-        {/* Left Column */}
         <div className="services-details-left">
           <span className="subtitle">Medical Services</span>
           <h1 className="main-title">
@@ -28,8 +27,6 @@ function ServicesDetailsMain() {
             quae ab illo inventore veritatis et quasi architecto beatae vitae
             dicta sunt explicabo.
           </p>
-
-          {/* Feature List */}
           <div className="features-grid">
             <div className="feature-item">
               <div className="feature-icon">+</div>
@@ -57,10 +54,10 @@ function ServicesDetailsMain() {
           </div>
         </div>
 
-        {/* Right Sidebar Column (Changed from <aside> to <div>) */}
+       
         <div className="services-details-sidebar">
           
-          {/* Top Image */}
+
           <div className="sidebar-banner-img">
             <img
               src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80"
@@ -68,7 +65,7 @@ function ServicesDetailsMain() {
             />
           </div>
 
-          {/* More Services List */}
+
           <div className="sidebar-widget">
             <h3 className="widget-title">More Services</h3>
             <ul className="services-menu-list">
@@ -81,7 +78,7 @@ function ServicesDetailsMain() {
             </ul>
           </div>
 
-          {/* Advice Form */}
+  
           <div className="sidebar-widget">
             <h3 className="widget-title">Get Some Advice?</h3>
             <form className="advice-form">
@@ -99,7 +96,7 @@ function ServicesDetailsMain() {
             </form>
           </div>
 
-          {/* Support Promo Banner */}
+      
           <div className="sidebar-promo-card">
             <img
               src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80"
