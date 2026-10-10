@@ -14,4 +14,5 @@ h5:hover,
 h6:hover {
     color: rgba(57, 219, 57, 0.856) !important;
     transition: 0.5s;
+    
 }
