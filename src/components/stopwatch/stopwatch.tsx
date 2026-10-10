@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './stopwatch.css';
 
 function Stopwatch() {
-    const [time, setTime] = useState(0);
+    const [time] = useState(0);
     const [button, setButton] = useState("green");
     const [buttonType, setButtonType] = useState("Start");
 
