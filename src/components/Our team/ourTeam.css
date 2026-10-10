@@ -12,7 +12,9 @@
     font-size: 18px;
     font-weight: 700;
     color: #647589;
+    transition: 0.5s;
 }
+
 
 .our-team-container {
     display: flex;

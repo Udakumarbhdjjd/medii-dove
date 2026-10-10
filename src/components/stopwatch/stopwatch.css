@@ -1,0 +1,67 @@
+.stopwatch-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.stopwatch-frame {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+}
+
+/* Multi-color spotlight layer */
+.stopwatch-frame::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    z-index: -1;
+    border-radius: 50%;
+    
+    /* Radial gradient follows the cursor coordinates */
+    background: radial-gradient(
+        100px circle at var(--x, 50%) var(--y, 50%),
+        #ff007f 0%,
+        #aa3bff 50%,
+        #00d2ff 80%,
+        transparent 100%
+    );
+    
+    filter: blur(6px);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+
+/* Show spotlight when mouse enters */
+.stopwatch-frame:hover::before {
+    opacity: 1;
+}
+
+.stopwatch-timer {
+    margin-top: 50px;
+    color: white;
+    font-size: 70px;
+}
+
+.stopwatch-button {
+    font-size: 30px;
+    color: white;
+    width: 80px;
+    padding: 5px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}

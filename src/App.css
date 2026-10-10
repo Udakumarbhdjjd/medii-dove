@@ -1,7 +1,17 @@
-*{
+* {
     font-size: 14px;
-    font-family:Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     text-decoration: none;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    color: rgba(57, 219, 57, 0.856) !important;
+    transition: 0.5s;
 }
